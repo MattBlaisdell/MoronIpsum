@@ -1,0 +1,186 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+body {
+	background:#263238;
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+
+
+header {
+	width:100%;
+	max-height:500px;
+	height:500px;
+	background:url('img/header.jpg');
+	background-size:cover;
+	background-position: 50% 50%;
+}
+
+
+
+::selection {
+  background: #F44336;
+  color:#fff; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #F44336;
+  color:#fff; /* Gecko Browsers */
+}
+
+
+
+
+
+.navbar-default {
+	background:none;
+	border:none;
+	color:#fff;
+}
+
+.navbar-default .navbar-brand {
+	color:#fff;
+	font-size:24px;
+}
+
+.navbar-default .navbar-brand:hover {
+	color:#F44336;
+	font-size:24px;
+	    -webkit-transition: .25s; /* Safari */
+    transition:  .25s;
+}
+
+.navbar-default .navbar-brand:active {
+	color:#F44336;
+	font-size:24px;
+}
+
+.navbar-default .navbar-brand:focus {
+	color:#F44336;
+	font-size:24px;
+}
+
+
+
+header .callout {
+margin-top:150px;
+	text-align:center;
+height:72px;
+width:auto;
+color:#fff;
+}
+
+.callout h1{
+font-size:72px;
+line-height: 60px;
+text-shadow: 0px 0px 10px rgba(0,0,0,.25);
+}
+
+.callout p {
+	font-size:24px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+
+}
+
+
+
+
+
+
+.ipsum {
+	max-width:1140px;
+	min-height:200px;
+	margin-bottom:50px;
+	height:auto;
+	background:#fff;
+	padding:5px 50px 50px 50px;
+	margin-top:-50px;
+	border-radius:10px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.25);
+
+}
+
+
+#generated p {
+	margin-top:20px;
+		font-size:18px;
+		line-height: 32px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+}
+
+#generated p:first-child {
+border-top: solid 1px #eee;
+padding-top:25px;
+
+}
+
+
+.control-group {
+	display:block;
+	margin:auto;
+	text-align:center;
+		font-family: 'Open Sans', sans-serif;
+		font-weight:500;
+
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background: #F44336;
+    color: #fff;
+    margin: auto;
+    font-weight: 700;
+    display: block;
+
+}
+
+.btn:hover {
+background:#E53935;
+color:#fff;
+  outline: none;
+
+}
+
+.btn:active,focus {
+	color:#fff;
+	background:#F44336;
+	  outline: none;
+}
+
+.btn:focus {
+	  outline: none;
+
+}
+
+
+
+
+
+.footer {
+	padding-top:50px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height:50px;
+  background-color: #37474F;
+  text-align: center;
+}
