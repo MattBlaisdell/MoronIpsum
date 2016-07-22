@@ -31,7 +31,7 @@ function ipsum(numParagraphs, phrases, startText){
         < numSentences; j++){
       // 15 - 20 words per sentence
       var sentence = "";
-      var numWords = Math.floor((Math.random()*6)+15);
+      var numWords = Math.floor((Math.random()*6)+10);
       for(var k = 0; k < numWords; k++){
         var word = "";
         var wordNum = Math.floor(Math.random()*phrases.length);
