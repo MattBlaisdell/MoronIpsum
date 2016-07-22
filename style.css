@@ -75,6 +75,18 @@ header {
 
 
 
+
+
+@media screen and (max-width:767px) {
+	.navbar-default .navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    width: 100%;
+    display: inline;
+    text-align: center;
+}
+}
+
 header .callout {
 margin-top:150px;
 	text-align:center;
