@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
   // Initialize ipsum
   var generated = $("#generated");
-  var league = ["Quantum", "Submolecular", "superposition", "ponder", "whew", "fine", "jam", "snobby", "dope", "consume", "core", "inhibitor"];
+  var league = ["irregardless", "on fleek", "turnt", "fetch", "so fetch", "quit trying to make fetch happen", "sprang break", "dat",  "turn up", "grind", "chirped", "doe", "ish", "swerve", "swag", "i can't even", "fleek", "basic", "squad", "lit", "fam", "woke", "snuck", "firstly", "prolly", "literally", "funner", "anyways", "orientate", "madded", "impactful", "supposedly", "flustrated", "conversate", "that's so random", "for all intensive purposes", "announciate", "expresso", "misunderestimate","vice-a versa","whole nother", "bae", "yolo", "participator",];""
   
   $("#ipsum").bind("submit", function(){
     var numParagraphs = $("input[name=num-paragraphs]").val()
