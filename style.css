@@ -11,7 +11,7 @@ html {
 
 
 body {
-	background:#263238;
+	background:#2f95d6;
   position: relative;
   margin: 0;
   padding-bottom: 6rem;
@@ -27,9 +27,16 @@ header {
 	height:500px;
 	background:url('img/header.jpg');
 	background-size:cover;
-	background-position: 50% 50%;
+	background-position: 90% 90%;
+
+
 }
 
+
+@media screen and(max-width:767px) {
+	header {
+		background-position:center;	}
+}
 
 
 ::selection {
@@ -109,7 +116,7 @@ margin-top:150px;
 	text-align:center;
 height:72px;
 width:auto;
-color:#fff;
+color:rgba(255,255,255,.8);
 }
 
 @media screen and (max-width:767px) {
@@ -228,7 +235,7 @@ color:#fff;
   bottom: 0;
   left: 0;
   min-height:50px;
-  background-color: #37474F;
+  background-color: #1f77b0;
   text-align: center;
 }
 

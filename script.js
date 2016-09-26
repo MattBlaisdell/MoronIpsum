@@ -8,7 +8,7 @@ jQuery(document).ready(function($) {
     if(numParagraphs > 100){
       numParagraphs = 100;
     }
-    var startWith = $("input[name=start-with]").is(':checked') ? "League of Ipsum dolor sit amet " : "";
+    var startWith = $("input[name=start-with]").is(':checked') ? "League of Ipsum dolor sit amet " : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ";
     generated.html(ipsum(numParagraphs, league, startWith));
     return false;
   });
